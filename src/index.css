@@ -298,11 +298,14 @@ button {
 
 
 .footer-content {
-  background: #1a1a1a;
+  /* background: #1a1a1a;
   padding: 60px 10% 40px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
 .footer-contact-strip {
