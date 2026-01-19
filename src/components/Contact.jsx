@@ -20,19 +20,21 @@ export default function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // 1. Start loading (disable button)
-        setIsLoading(true);
+        // Validation: Check if required fields are empty
+        if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
+            alert("Please fill in all required fields.");
+            return;
+        }
 
-        // Simulate API call
+        setIsLoading(true);
         console.log("Form Submitted:", formData);
 
         setTimeout(() => {
-            // 2. Stop loading and show success
             setIsLoading(false);
             setSubmitted(true);
             alert("Thank you! We have received your message.");
             setFormData({ name: "", email: "", phone: "", message: "" });
-        }, 2000); // Increased timeout to 2s to better demonstrate the loading state
+        }, 2000);
     };
 
     const resetForm = () => setSubmitted(false);
