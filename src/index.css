@@ -366,7 +366,8 @@ button {
 
   .hero {
     min-height: auto;
-    padding: 80px 5%;
+    padding: 60px 20px;
+    background-position: center top;
   }
 
   .hero h1 {
