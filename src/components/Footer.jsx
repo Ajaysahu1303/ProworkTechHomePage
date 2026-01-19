@@ -5,7 +5,6 @@ export default function Footer() {
     return (
         <footer className="footer">
 
-
             <div className="footer-content">
                 <div className="footer-brand">
                     <h3>Prowork Tech</h3>
