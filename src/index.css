@@ -414,7 +414,6 @@ button {
     gap: 12px;
   }
 
-  /* Increase padding for better spacing on mobile */
   .footer-contact-strip {
     padding: 40px 20px;
   }
@@ -435,8 +434,6 @@ button {
   border: 1px solid var(--border-color);
 }
 
-/* Removed conflicting section re-declaration to preserve top-level padding */
-
 #demo .component-image,
 #faq .component-image,
 #testimonials .component-image {
@@ -455,9 +452,7 @@ button {
 
 .video-wrapper {
   width: 100%;
-  /* Default to full width of container */
   max-width: 800px;
-  /* Cap width for larger screens */
   margin: 0 auto;
   border-radius: 12px;
   overflow: hidden;
@@ -465,7 +460,7 @@ button {
   background: #000;
 }
 
-/* Ensure good responsiveness on smaller devices if needed, though width: 100% + max-width usually handles it */
+
 @media (max-width: 768px) {
   .video-wrapper {
     width: 95%;
@@ -481,7 +476,6 @@ button {
 .iframe-container {
   position: relative;
   padding-bottom: 56.25%;
-  /* 16:9 Aspect Ratio */
   height: 0;
 }
 
@@ -520,6 +514,5 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* Center content in grid cells */
   gap: 8px;
 }
