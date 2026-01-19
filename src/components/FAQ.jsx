@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./ComponentStyles.css";
 import { FaPlus, FaMinus } from "react-icons/fa";
 
 const faqs = [

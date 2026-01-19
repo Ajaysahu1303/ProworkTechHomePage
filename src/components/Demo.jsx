@@ -1,5 +1,3 @@
-import "./ComponentStyles.css";
-
 export default function Demo() {
     return (
         <section id="demo">

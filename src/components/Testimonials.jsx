@@ -1,4 +1,3 @@
-import "./ComponentStyles.css";
 import { FaQuoteLeft, FaStar } from "react-icons/fa";
 
 const testimonials = [
