@@ -407,6 +407,18 @@ button {
     gap: 40px;
   }
 
+  .footer-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* Increase padding for better spacing on mobile */
+  .footer-contact-strip {
+    padding: 40px 20px;
+  }
+
   .contact-info-row {
     grid-template-columns: 1fr;
     gap: 15px;
