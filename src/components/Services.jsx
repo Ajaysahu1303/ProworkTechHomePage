@@ -7,8 +7,6 @@ const services = [
     { title: "Cloud Solutions", desc: "Deploying secure, scalable, and cost-effective cloud infrastructure on AWS and Azure.", icon: <FaCloud /> },
     { title: "E-Commerce", desc: "Creating robust online stores with seamless payment integration and user management.", icon: <FaShoppingCart /> },
     { title: "Consultancy", desc: "Expert technical advice to help you make informed decisions for your digital transformation.", icon: <FaLightbulb /> },
-    { title: "Consultancy", desc: "Expert technical advice to help you make informed decisions for your digital transformation.", icon: <FaLightbulb /> },
-    { title: "Consultancy", desc: "Expert technical advice to help you make informed decisions for your digital transformation.", icon: <FaLightbulb /> },
 ];
 
 export default function Services() {
