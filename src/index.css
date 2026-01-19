@@ -88,6 +88,20 @@ button {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Parallax effect for desktop */
+}
+
+/* ... existing styles ... */
+
+/* ... existing styles ... */
+
+.hero {
+  min-height: auto;
+  padding: 60px 20px;
+  background-position: center top;
+  background-attachment: scroll;
+  /* Reset for mobile performance */
 }
 
 .hero h1 {
@@ -385,7 +399,6 @@ button {
     gap: 15px;
     width: 100%;
     max-width: 280px;
-    /* Constrain width on mobile */
   }
 
   .cta-group button {
